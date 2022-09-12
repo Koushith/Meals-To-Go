@@ -20,6 +20,7 @@
     "react-dom": "18.0.0",
     "react-native": "0.69.5",
     "react-native-paper": "^4.12.4",
+    "react-native-svg": "12.1.0",
     "react-native-web": "~0.18.7",
     "styled-components": "^5.3.5"
   },
