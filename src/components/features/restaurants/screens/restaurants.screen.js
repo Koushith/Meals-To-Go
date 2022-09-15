@@ -13,12 +13,7 @@ import styled from "styled-components/native";
 
 import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
 import { Spacer } from "../../../spacer/spacer.component";
-
-const SafeArea = styled(SafeAreaView)`
-  flex: 1;
-  margin-top: ${StatusBar.currentHeight}px; // this will break on ios- coz current height is only for ios. it will be null or undefned
-  ${StatusBar.currentHeight && `margin-top : ${StatusBar.currentHeight}`}
-`;
+import { SafeArea } from "../../../utility/safe-area.component";
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
